@@ -14,8 +14,13 @@ public class ResponseTransactionDTO {
         this.count = stats.getCount();
         this.sum = stats.getSum();
         this.avg = stats.getAverage();
-        this.min = stats.getMin();
-        this.max = stats.getMax();
+        if (stats.getCount() == 0) {
+            this.min = 0.0;
+            this.max = 0.0;
+        } else {
+            this.min = stats.getMin();
+            this.max = stats.getMax();
+        }
     }
 
     public long getCount() {
