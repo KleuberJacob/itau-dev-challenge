@@ -5,8 +5,6 @@ A ideia é simples: criar uma API REST que recebe transações de usuários sem 
 Itaú Unibanco - Desafio de Programação
 Este é um desafio bacana tanto de desenvolvimento de software quanto de engenharia de software. Queremos testar sua capacidade de construir um software com várias partes diferentes funcionando em conjunto!
 
-Vídeo no youtube https://youtu.be/uke3i4uOejs
-
 1. Introdução
 Sua missão, caso você aceite, é criar uma API REST que recebe Transações e retorna Estatísticas sob essas transações. Para este desafio, a API deve ser criada utilizando-se de Java ou Kotlin e Spring Boot.
 
@@ -76,7 +74,6 @@ Como resposta, espera-se que este endpoint responda com:
 Todas as informações foram apagadas com sucesso
 2.2.3. Calcular Estatísticas: GET /estatistica
 Este endpoint deve retornar estatísticas das transações que aconteceram nos últimos 60 segundos (1 minuto). As estatísticas que devem ser calculadas são:
-
 {
     "count": 10,
     "sum": 1234.56,
